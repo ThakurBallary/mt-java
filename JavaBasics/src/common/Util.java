@@ -8,5 +8,16 @@ public class Util {
 		}
 		System.out.println();
 	}
+	
+	public static int[] charCounter(String str) {
+		int count[] = new int[256];
+        int len = str.length();
+        
+        for (int i = 0; i < len; i++) {
+            count[str.charAt(i)]++;
+        }
+        
+        return count;
+	}
 
 }
