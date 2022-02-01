@@ -25,7 +25,7 @@
 		<form action="insert" method="post">
 	</c:if>
 	<table border="1" cellpadding="5">
-	<body style="background-color:SkyBlue;">
+	<body>
 		<caption>
 			<h2>
 				<c:if test = "${existingDepartment!= null}">

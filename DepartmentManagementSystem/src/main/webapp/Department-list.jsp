@@ -20,7 +20,7 @@
 <div align="center">
 
 	<table border="1" cellpadding = "5">
-	<body style="background-color:SkyBlue;">
+	<body>
 		<caption><h2>List of departments</h2></caption>
 		<tr>
 			<th>DepartmentId </th>
