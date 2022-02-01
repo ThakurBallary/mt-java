@@ -16,22 +16,18 @@ public class EmployeeService {
 	}
 
 	public Employee addEmployee(Employee emp) {
-		// TODO Auto-generated method stub
 		return empDao.addEmployee(emp);
 	}
 
 	public String deleteEmployee(int empid) {
-		// TODO Auto-generated method stub
 		return empDao.deleteEmployee(empid);
 	}
 
 	public Employee updateEmployee(int empid,Employee emp) {
-		// TODO Auto-generated method stub
 		return empDao.updateEmployee(empid,emp);
 	}
 
 	public Employee getEmployeeById(int empid) {
-		// TODO Auto-generated method stub
 		return empDao.getEmployeeById(empid);
 	}
 
