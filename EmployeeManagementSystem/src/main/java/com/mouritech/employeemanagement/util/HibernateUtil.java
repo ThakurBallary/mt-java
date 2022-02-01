@@ -8,10 +8,15 @@ import org.hibernate.cfg.Configuration;
 import org.hibernate.cfg.Environment;
 import org.hibernate.service.ServiceRegistry;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
 import com.mouritech.employeemanagement.entity.Employee;
 
 
 public class HibernateUtil {
+	
+	private static final Logger logger = LogManager.getLogger(HibernateUtil.class);
 	
 	private static SessionFactory sessionFactory;
 	
